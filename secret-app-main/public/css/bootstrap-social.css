@@ -1,0 +1,173 @@
+.btn-social {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-social > :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Button sizes */
+.btn-social.btn-lg {
+    padding-left: 61px;
+}
+
+.btn-social.btn-lg > :first-child {
+    line-height: 45px;
+    width: 45px;
+    font-size: 1.8em;
+}
+
+.btn-social.btn-sm {
+    padding-left: 38px;
+}
+
+.btn-social.btn-sm > :first-child {
+    line-height: 28px;
+    width: 28px;
+    font-size: 1.4em;
+}
+
+.btn-social.btn-xs {
+    padding-left: 30px;
+}
+
+.btn-social.btn-xs > :first-child {
+    line-height: 20px;
+    width: 20px;
+    font-size: 1.2em;
+}
+
+/* Icon-only buttons */
+.btn-social-icon {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+}
+
+.btn-social-icon > :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Icon button sizes */
+.btn-social-icon.btn-lg {
+    height: 45px;
+    width: 45px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-social-icon.btn-sm {
+    height: 30px;
+    width: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-social-icon.btn-xs {
+    height: 22px;
+    width: 22px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Button variations for social networks */
+.btn-adn {
+    color: #fff;
+    background-color: #d87a68;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-adn:hover {
+    background-color: #ce563f;
+}
+
+.btn-adn:active,
+.btn-adn.active {
+    background-color: #ce563f;
+}
+
+.btn-adn:active:hover,
+.btn-adn.active:hover {
+    background-color: #b94630;
+}
+
+.btn-adn.disabled,
+.btn-adn[disabled] {
+    background-color: #d87a68;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-adn .badge {
+    color: #d87a68;
+    background-color: #fff;
+}
+
+/* Add similar styles for other social buttons as needed */
+.btn-bitbucket {
+    color: #fff;
+    background-color: #205081;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Continue with the other button styles like .btn-bitbucket, .btn-dropbox, etc. */
+
+/* Example for Facebook */
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-facebook:hover {
+    background-color: #2d4373;
+}
+
+.btn-facebook:active,
+.btn-facebook.active {
+    background-color: #2d4373;
+}
+
+.btn-facebook:active:hover,
+.btn-facebook.active:hover {
+    background-color: #23345a;
+}
+
+.btn-facebook.disabled,
+.btn-facebook[disabled] {
+    background-color: #3b5998;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-facebook .badge {
+    color: #3b5998;
+    background-color: #fff;
+}
+
+/* Repeat for other buttons */
